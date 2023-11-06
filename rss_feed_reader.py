@@ -15,8 +15,8 @@ def get_url_list():
             break
         if url == "":
             continue
-        if url is not None:
-            rss_url_list.append(url)
+
+        rss_url_list.append(url)
 
     system("clear")
     return rss_url_list
